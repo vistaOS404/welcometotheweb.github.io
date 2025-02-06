@@ -31,4 +31,30 @@ body {
     height: auto;
     position: relative;
     z-index: 10; /* Ensures it appears above the overlay */
+
+    /* Ensures the overlay is behind other content */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
+    z-index: 1; /* Lower than other content */
+}
+
+/* Ensures the logo appears above the overlay */
+header {
+    position: relative;
+    z-index: 2; /* Higher than overlay */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Adjust logo */
+.logo {
+    max-width: 300px;
+    height: auto;
+}
+
 }
