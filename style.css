@@ -10,3 +10,20 @@ body {
     background: url('docs/assets/bg_p2.png') no-repeat center center fixed;
     background-size: cover;
 }
+/* Overlay for readability */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+/* Adjust logo placement */
+.logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    height: auto;
+    position: relative;
+    z-index: 10; /* Ensures it appears above the overlay */
+}
