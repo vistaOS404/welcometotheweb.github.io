@@ -4,3 +4,9 @@
     max-width: 300px; /* Adjust size */
     height: auto;
 }
+body {
+    margin: 0;
+    height: 100vh;
+    background: url('docs/assets/bg_p.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
