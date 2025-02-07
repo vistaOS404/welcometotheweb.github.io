@@ -69,13 +69,16 @@ nav, .back-button {
 
 /* Styling for the About button */
 .back-button {
-    display: inline-block;
-    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    margin: 20px auto; /* Centers it */
     padding: 10px 15px;
     background: #333;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+
 }
 
 .back-button:hover {
