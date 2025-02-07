@@ -16,4 +16,8 @@ body {
     max-width: 300px; /* Adjust as needed */
     height: auto;
 }
+.logo {
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.5));
+}
+
 
