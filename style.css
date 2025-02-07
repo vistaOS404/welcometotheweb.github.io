@@ -46,9 +46,9 @@ body {
 
 .about-page main {
     position: absolute;
-    top: 50%;
+    top: 45%; /* Move it up slightly */
     left: 50%;
-    transform: translate(-50%, -50%); /* Perfectly centers it */
+    transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 30px;
@@ -58,6 +58,7 @@ body {
     text-align: center;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
+
 
 
 /* Character Section */
