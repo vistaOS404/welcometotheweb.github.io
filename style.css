@@ -1,8 +1,11 @@
 .logo {
+    position: relative; /* Ensures it's placed in normal document flow */
+    z-index: 10; /* Higher than the overlay */
     display: block;
-    margin: 20px auto; /* Adds space at the top and centers it */
-    max-width: 300px; /* Adjust size */
-    height: auto;
+    margin: 50px auto; /* Centers and adds spacing */
+    max-width: 200px; /* Adjust as needed */
+}
+
 }
 body {
     margin: 0;
