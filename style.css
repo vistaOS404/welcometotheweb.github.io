@@ -46,7 +46,7 @@ body {
 
 .about-page main {
     position: relative;
-    margin: 120px auto; /* Pushes the content box down */
+    margin: 135px auto; /* Pushes the content box down */
     padding: 30px;
     background: rgba(0, 0, 0, 0.6);
     color: white;
