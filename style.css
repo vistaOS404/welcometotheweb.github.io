@@ -45,17 +45,20 @@ body {
 
 
 .about-page main {
-    background-color: rgba(0, 0, 0, 0.6) !important; /* Stronger transparency */
-    color: white !important; /* Ensures text stays readable */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Perfectly centers it */
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
     padding: 30px;
     border-radius: 15px;
     width: 80%;
     max-width: 800px;
     text-align: center;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Subtle glow effect */
-    position: relative;
-    z-index: 10; /* Ensures it is above the background */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
+
 
 /* Character Section */
 .character {
