@@ -31,9 +31,14 @@ header {
     max-width: 300px;
     height: auto;
 }
-body {
+
+html, body {
     margin: 0;
-    height: 100vh;
+    padding: 0;
+    height: 100vh; /* Ensures the background fills the screen */
+}
+
+body {
     background: url('docs/assets/bg_p2.png') no-repeat center center fixed;
     background-size: cover;
 }
