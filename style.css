@@ -8,4 +8,12 @@ body {
     background: url('https://vistaos404.github.io/docs/assets/bg_p2.png') no-repeat center center fixed;
     background-size: cover;
 }
+.logo {
+    position: absolute; /* Ensures it’s placed above the background */
+    top: 50px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+}
 
