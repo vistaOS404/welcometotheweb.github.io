@@ -28,25 +28,24 @@ body {
     padding: 0;
 }
 
-/* Header */
-header {
+.about-page .logo {
+    position: relative;
+    display: block;
+    margin: 20px auto; /* Adds spacing from top */
+    max-width: 200px; /* Adjust if needed */
+    z-index: 10; /* Ensures it appears above the background */
+}
+
+.about-page main {
+    margin-top: 120px; /* Pushes content lower to avoid overlap */
     padding: 20px;
-    background: rgba(0, 0, 0, 0.7);
-}
-
-.logo {
-    max-width: 200px;
-}
-
-/* Main Content */
-main {
+    background: rgba(255, 255, 255, 0.9); /* Keeps content readable */
+    border-radius: 10px;
     width: 80%;
     max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
 }
 
 /* Character Section */
