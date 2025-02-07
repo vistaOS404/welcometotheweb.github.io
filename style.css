@@ -29,21 +29,25 @@ body {
 }
 
 .about-page .logo {
-    position: relative;
-    display: block;
-    margin: 20px auto; /* Adds spacing from top */
-    max-width: 200px; /* Adjust if needed */
-    z-index: 10; /* Ensures it appears above the background */
+    position: absolute;
+    top: 20px; /* Adjust spacing from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 250px; /* Adjust size as needed */
+    height: auto;
+    z-index: 10;
 }
 
+
 .about-page main {
-    margin-top: 120px; /* Pushes content lower to avoid overlap */
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.9); /* Keeps content readable */
+    margin: 100px auto; /* Centers it */
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     width: 80%;
     max-width: 800px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centers text inside */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 }
