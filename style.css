@@ -30,7 +30,7 @@ body {
 
 .about-page .logo {
     position: absolute;
-    top: -30px; /* Move it even higher */
+    top: -10px; /* Move it even higher */
     left: 50%;
     transform: translateX(-50%);
     max-width: 250px; /* Adjust size if needed */
