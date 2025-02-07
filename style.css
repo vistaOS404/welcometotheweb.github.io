@@ -60,8 +60,6 @@ body {
     z-index: 10; /* Ensures it is above the background */
 }
 
-}
-
 /* Character Section */
 .character {
     display: flex;
