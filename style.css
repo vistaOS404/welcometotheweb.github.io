@@ -93,13 +93,12 @@ nav, .back-button {
 }
 
 .about-page .logo {
-    position: relative; /* Prevents overlap */
-    max-width: 200px; /* Adjust if needed */
-    height: auto;
+    position: relative;
+    margin-top: 50px; /* Adjust as needed */
+    max-width: 200px;
     display: block;
-    margin: 20px auto;
 }
 
 .about-page main {
-    margin-top: 300px; /* Pushes content below logo */
+    margin-top: 200px; /* Pushes content below logo */
 }
