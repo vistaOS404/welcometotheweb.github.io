@@ -9,13 +9,14 @@ body {
     background-size: cover;
 }
 .logo {
-    position: absolute; /* Ensures it’s placed above the background */
-    top: 50px; /* Adjust as needed */
+    position: absolute;
+    top: 120px; /* Pushes it lower */
     left: 50%;
     transform: translateX(-50%);
-    max-width: 300px; /* Adjust as needed */
+    max-width: 250px;
     height: auto;
 }
+
 .logo {
     filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.5));
 }
@@ -105,7 +106,7 @@ body {
     background: #555;
 }
 .main-header {
-    position: fixed; /* Keeps it at the top while scrolling */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -119,7 +120,7 @@ body {
     color: white;
     font-size: 28px;
     margin: 0;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .main-header nav ul {
@@ -128,7 +129,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .main-header nav ul li {
@@ -146,9 +147,6 @@ body {
 .main-header nav ul li a:hover {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
-}
-body {
-    padding-top: 80px; /* Adjust this if the header covers content */
 }
 
 
