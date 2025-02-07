@@ -1,37 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-}
-.comic img {
-    max-width: 100%;
-    height: auto;
-}
-header {
-    text-align: center;
-    padding: 20px;
-}
-
-.logo {
-    max-width: 200px; /* Adjust size */
-    height: auto;
-}
-header {
-    width: 100%;
-    text-align: center;
-    padding: 20px 0; /* Adds spacing at the top */
-    position: fixed; /* Keeps it at the top */
-    top: 0;
-    left: 0;
-    background-color: #fff; /* Optional: Adds a background */
-    z-index: 1000; /* Ensures it stays above other content */
-}
-
-.logo {
-    max-width: 300px;
-    height: auto;
-}
-
 html, body {
     margin: 0;
     padding: 0;
@@ -39,29 +5,7 @@ html, body {
 }
 
 body {
-    background: url('docs/assets/bg_p2.png') no-repeat center center fixed;
+    background: url('https://vistaos404.github.io/docs/assets/bg_p2.png') no-repeat center center fixed;
     background-size: cover;
-}
-header {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    text-align: center;
-    z-index: 10;
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: url('docs/assets/bg_p2.png') no-repeat center center fixed;
-    background-size: cover;
-    z-index: -1;
-}
