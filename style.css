@@ -83,3 +83,10 @@ nav, .back-button {
 .back-button:hover {
     background: #555;
 }
+.about-page .logo {
+    position: relative;
+    top: 0; /* Resets any positioning */
+    margin: 20px auto; /* Centers and adds spacing */
+    display: block;
+}
+
