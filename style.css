@@ -82,14 +82,15 @@ nav, .back-button {
 
 .back-button:hover {
     background: #555;
+
 }
 .about-page .logo {
-    position: relative;
-    top: 0; /* Resets any positioning */
-    margin: 20px auto; /* Centers and adds spacing */
+    position: static; /* Removes absolute positioning */
     display: block;
+    margin: 20px auto; /* Centers it with space */
+    max-width: 200px; /* Adjust as needed */
+}
+.about-page main {
+    margin-top: 150px; /* Moves content down */
 }
 
-.about-page main {
-    margin-top: 200px; /* Moves content lower */
-}
