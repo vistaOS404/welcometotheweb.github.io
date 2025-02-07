@@ -90,3 +90,6 @@ nav, .back-button {
     display: block;
 }
 
+.about-page main {
+    margin-top: 100px; /* Moves content lower */
+}
