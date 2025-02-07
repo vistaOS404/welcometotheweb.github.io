@@ -12,6 +12,10 @@ body {
     height: 100vh;
     background: url('docs/assets/bg_p2.png') no-repeat center center fixed;
     background-size: cover;
+    position: relative;
+    z-index: -1; /* Ensures it stays behind everything */
+}
+
 }
 /* Overlay for readability */
 .overlay {
