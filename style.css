@@ -45,19 +45,19 @@ body {
 
 
 .about-page main {
-    position: absolute;
-    top: 40%; /* Move it up slightly */
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    margin: 120px auto; /* Pushes the content box down */
+    padding: 30px;
     background: rgba(0, 0, 0, 0.6);
     color: white;
-    padding: 30px;
     border-radius: 15px;
     width: 80%;
     max-width: 800px;
     text-align: center;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
+
+
 
 
 
