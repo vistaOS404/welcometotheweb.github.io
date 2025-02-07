@@ -19,14 +19,15 @@ body {
 }
 /* Overlay for readability */
 .overlay {
-    position: fixed; /* Stays in place even when scrolling */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* Ensures full page coverage */
+    height: 100%;
     background: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
-    z-index: 1; /* Ensures it's above the background but below content */
+    z-index: 1; /* Should be above the background but below content */
 }
+
 
 /* Overlay covering full screen */
 .overlay {
