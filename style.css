@@ -32,15 +32,13 @@ body {
     z-index: 1; /* Lower than logo */
 }
 
-/* Ensure logo is on top */
-.logo {
-    position: relative; /* Make sure it's placed above */
-    top: 20px; /* Adjust distance from the top */
-    left: 50%;
-    transform: translateX(-50%); /* Center it */
-    max-width: 300px;
-    height: auto;
-    z-index: 10; /* Much higher than the overlay */
+.about-page .logo {
+    position: relative; /* Ensures proper positioning */
+    margin: 50px auto; /* Moves it down and centers it */
+    display: block; /* Ensures it takes up the full width */
+    max-width: 200px; /* Adjust as needed */
+}
+
 }
 
 body {
