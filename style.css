@@ -83,14 +83,21 @@ nav, .back-button {
 .back-button:hover {
     background: #555;
 
-}
-.about-page .logo {
-    position: static; /* Removes absolute positioning */
-    display: block;
-    margin: 20px auto; /* Centers it with space */
-    max-width: 200px; /* Adjust as needed */
-}
-.about-page main {
-    margin-top: 150px; /* Moves content down */
+.about-page header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Optional: Keeps consistency with other pages */
 }
 
+.about-page .logo {
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+    position: relative; /* Ensures no absolute positioning issues */
+}
+.about-page main {
+    margin-top: 100px; /* Adjust to create space under logo */
+    padding: 20px;
+}
