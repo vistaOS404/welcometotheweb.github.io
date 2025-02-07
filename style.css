@@ -1,108 +1,39 @@
-.logo {
-    position: relative; /* Ensures it's placed in normal document flow */
-    z-index: 10; /* Higher than the overlay */
-    display: block;
-    margin: 50px auto; /* Centers and adds spacing */
-    max-width: 200px; /* Adjust as needed */
-}
-
-}
-.body {
-    background: url('docs/assets/bg_p2.png') no-repeat center center fixed;
-    background-size: cover;
-}
-
-/* Overlay for readability */
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
-    z-index: 1; /* Should be above the background but below content */
-}
-
-
-/* Overlay covering full screen */
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
-    z-index: 1; /* Lower than logo */
-}
-
-.about-page .logo {
-    position: relative; /* Ensures proper positioning */
-    margin: 50px auto; /* Moves it down and centers it */
-    display: block; /* Ensures it takes up the full width */
-    max-width: 200px; /* Adjust as needed */
-}
-
-}
-
-.body {
+body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
+}
+.comic img {
+    max-width: 100%;
+    height: auto;
+}
+header {
+    text-align: center;
+    padding: 20px;
 }
 
-/* Ensure the overlay is behind everything */
-.overlay {
-    position: fixed;
+.logo {
+    max-width: 200px; /* Adjust size */
+    height: auto;
+}
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0; /* Adds spacing at the top */
+    position: fixed; /* Keeps it at the top */
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
-    z-index: 1; /* Lower than other elements */
+    background-color: #fff; /* Optional: Adds a background */
+    z-index: 1000; /* Ensures it stays above other content */
 }
 
-/* Make sure navigation and buttons are above the overlay */
-nav, .back-button {
-    position: relative;
-    z-index: 10; /* Higher than the overlay */
+.logo {
+    max-width: 300px;
+    height: auto;
 }
-
-/* Styling for the About button */
-.back-button {
-    display: block;
-    width: fit-content;
-    margin: 20px auto; /* Centers it */
-    padding: 10px 15px;
-    background: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-}
-
-.back-button:hover {
-    background: #555;
-
-.about-page header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Optional: Keeps consistency with other pages */
-}
-
-.about-page .logo {
-    position: relative;
-    margin-top: 50px; /* Adjust as needed */
-    max-width: 200px;
-    display: block;
-}
-
-.about-page main {
-    margin-top: 200px; /* Pushes content below logo */
+body {
+    margin: 0;
+    height: 100vh;
+    background: url('docs/assets/bg_p2.png') no-repeat center center fixed;
+    background-size: cover;
 }
