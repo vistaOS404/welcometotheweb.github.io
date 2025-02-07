@@ -42,3 +42,14 @@ body {
     background: url('docs/assets/bg_p2.png') no-repeat center center fixed;
     background-size: cover;
 }
+header {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
