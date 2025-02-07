@@ -110,11 +110,12 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+    background: rgba(0, 0, 0, 0.8);
     padding: 15px 0;
     text-align: center;
     z-index: 100;
 }
+
 
 .main-header h1 {
     color: white;
@@ -153,8 +154,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 20px;
+    padding: 120px 20px 40px; /* Push content down */
 }
+
 
 .character {
     background: rgba(0, 0, 0, 0.6);
