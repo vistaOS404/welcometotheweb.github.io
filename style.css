@@ -7,8 +7,8 @@
 }
 
 }
-body {
-    background: url('https://vistaos404.github.io/docs/assets/bg_p2.png') no-repeat center center fixed;
+.body {
+    background: url('docs/assets/bg_p2.png') no-repeat center center fixed;
     background-size: cover;
 }
 
