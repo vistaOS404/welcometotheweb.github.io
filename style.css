@@ -34,7 +34,7 @@ body {
 
 /* Ensure logo is on top */
 .logo {
-    position: absolute; /* Make sure it's placed above */
+    position: relative; /* Make sure it's placed above */
     top: 20px; /* Adjust distance from the top */
     left: 50%;
     transform: translateX(-50%); /* Center it */
