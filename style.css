@@ -46,7 +46,7 @@ body {
 
 .about-page main {
     position: absolute;
-    top: 45%; /* Move it up slightly */
+    top: 35%; /* Move it up slightly */
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.6);
