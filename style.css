@@ -48,26 +48,33 @@ body {
 
 
 .about-page main {
-    background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent box */
-    color: white; /* Ensure text stays readable */
+    background: rgba(0, 0, 0, 0.6) !important; /* Darker semi-transparent background */
+    color: white; /* Ensures text is readable */
     padding: 30px;
     border-radius: 15px;
-}
-
-
-}
-
-
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Subtle glow */
 }
 
 /* Character Section */
 .character {
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Stacks image & text vertically */
+    align-items: center; /* Centers content horizontally */
     justify-content: center;
-    gap: 10px; /* Space between image and text */
+    text-align: center;
+    gap: 10px; /* Adds space between image and text */
     margin-top: 20px;
 }
+
+.character img {
+    width: 150px; /* Adjust size */
+    height: auto;
+    border-radius: 15px;
+}
+
 
 .character img {
     width: 250px;
