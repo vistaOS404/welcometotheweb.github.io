@@ -262,3 +262,10 @@ body {
 body.loaded {
     opacity: 1;
 }
+body {
+    cursor: url('docs/assets/mouse_main.png'), auto;
+}
+
+a:hover, button:hover {
+    cursor: url('docs/assets/mouse_hover.png'), pointer;
+}
