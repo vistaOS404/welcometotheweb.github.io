@@ -253,3 +253,12 @@ body {
     bottom: 0;
     width: 100%;
 }
+
+body {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+body.loaded {
+    opacity: 1;
+}
