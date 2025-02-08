@@ -177,3 +177,50 @@ body {
     margin-bottom: 10px;
 }
 
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 20px 40px;
+    text-align: center;
+    color: white;
+}
+
+.contact-page form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.contact-page label {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.contact-page input,
+.contact-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-page button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-page button:hover {
+    background: #0056b3;
+}
