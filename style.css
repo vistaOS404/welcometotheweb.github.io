@@ -339,3 +339,13 @@ a, button, input[type="submit"], input[type="button"] {
     background: rgba(255, 255, 255, 0.2);
 }
 
+nav ul li a {
+    color: white !important;  /* Make text white */
+    font-weight: bold;        /* Make text bolder */
+    text-decoration: none;    /* Remove underline */
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: cyan !important;   /* Adds a hover effect */
+}
