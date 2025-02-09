@@ -106,49 +106,44 @@ body {
     background: #555;
 }
 .main-header {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+    color: white;
+    text-align: center;
+    padding: 20px;
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    padding: 15px 0;
-    text-align: center;
-    z-index: 100;
+    z-index: 1000;
 }
 
-
 .main-header h1 {
-    color: white;
-    font-size: 28px;
+    font-size: 30px;
     margin: 0;
     padding-bottom: 10px;
 }
 
-.main-header nav ul {
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
 }
 
-.main-header nav ul li {
+nav ul li {
     display: inline;
+    margin: 0 15px;
 }
 
-.main-header nav ul li a {
-    color: white;
+nav ul li a {
     text-decoration: none;
+    color: white;
     font-size: 18px;
-    padding: 10px 15px;
-    transition: 0.3s;
+    font-weight: bold;
 }
 
-.main-header nav ul li a:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
+nav ul li a:hover {
+    color: cyan;
 }
+
 
 .characters-page {
     display: flex;
