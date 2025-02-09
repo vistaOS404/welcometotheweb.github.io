@@ -364,3 +364,10 @@ a, button, input[type="submit"], input[type="button"] {
 body {
     background: black !important;
 }
+.chapter-list, .chapter-navigation, .chapter-content {
+    display: block !important;
+    opacity: 1 !important;
+    color: white !important;
+    position: relative;
+    z-index: 9999 !important;
+}
