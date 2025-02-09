@@ -308,18 +308,6 @@ a, button, input[type="submit"], input[type="button"] {
     position: relative;
     z-index: 9999; /* Ensure button appears on top */
 }
-
-.next-button:hover, .prev-button:hover {
-    background: rgba(255, 255, 255, 0.3) !important;
-    color: black !important;
-}
-
-.chapter-navigation {
-    text-align: center;
-    margin-top: 40px;
-    position: relative;
-    z-index: 1000;
-}
 .chapter-list {
     position: relative;
     z-index: 10;
@@ -351,4 +339,9 @@ a, button, input[type="submit"], input[type="button"] {
     color: black !important;
 }
 
+.next-button, .prev-button {
+    background: red !important;
+    color: white !important;
+    border: 2px solid yellow !important;  /* temp */
+}
 
