@@ -24,3 +24,4 @@ document.addEventListener("mousemove", function (e) {
         }, i * 50); // Staggered effect
     }
 });
+document.querySelectorAll("*").forEach(el => el.style.animation = "none");
