@@ -358,3 +358,13 @@ nav ul li a:hover {
     max-height: 700px; /* Adjust to preferred height */
     object-fit: contain; /* Ensures full image is visible without stretching */
 }
+.comic-image {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;  /* Centers the image */
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+}
