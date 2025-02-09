@@ -283,21 +283,6 @@ a, button, input[type="submit"], input[type="button"] {
     animation: fadeMove 1s ease-out;
 }
 
-@keyframes fadeInFix {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-/* Apply this fix to all fading elements */
-.fade-in {
-    animation: fadeInFix 1s ease-in-out forwards;
-    opacity: 1 !important; /* Forces visibility */
-}
-
 .chapter-list {
     text-align: center;
     padding: 100px 20px;
