@@ -320,5 +320,35 @@ a, button, input[type="submit"], input[type="button"] {
     position: relative;
     z-index: 1000;
 }
+.chapter-list {
+    position: relative;
+    z-index: 10;
+}
+
+.chapter-navigation {
+    position: relative;
+    z-index: 1000 !important;
+}
+
+.next-button, .prev-button {
+    display: inline-block !important;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white !important;
+    background: rgba(0, 0, 0, 0.8) !important;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 2px solid white;
+    opacity: 1 !important;
+    position: relative;
+    z-index: 9999 !important; /* Puts button above everything */
+}
+
+.next-button:hover, .prev-button:hover {
+    background: rgba(255, 255, 255, 0.3) !important;
+    color: black !important;
+}
 
 
