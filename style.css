@@ -293,3 +293,58 @@ a, button, input[type="submit"], input[type="button"] {
         transform: scale(2) translateY(-10px);
     }
 }
+.chapter-list {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.chapter-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.chapter-list ul li {
+    margin: 10px 0;
+}
+
+.chapter-list ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.chapter-list ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.chapter-content {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.chapter-content img {
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.next-button {
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.next-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
