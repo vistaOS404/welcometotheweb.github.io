@@ -293,58 +293,31 @@ a, button, input[type="submit"], input[type="button"] {
         transform: scale(2) translateY(-10px);
     }
 }
-.chapter-list {
+.next-button, .prev-button {
+    display: inline-block;
     text-align: center;
-    padding: 100px 20px;
-}
-
-.chapter-list ul {
-    list-style: none;
-    padding: 0;
-}
-
-.chapter-list ul li {
-    margin: 10px 0;
-}
-
-.chapter-list ul li a {
     text-decoration: none;
     font-size: 20px;
-    color: white;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 10px 15px;
-    border-radius: 5px;
+    font-weight: bold;
+    color: white !important; /* Force text color */
+    background: red !important; /* Temporary test color */
+    padding: 12px 18px;
+    border-radius: 8px;
     transition: 0.3s;
+    border: 2px solid white;
+    position: relative; /* Ensures they are visible */
+    z-index: 1000; /* Puts them above other elements */
 }
 
-.chapter-list ul li a:hover {
-    background: rgba(255, 255, 255, 0.2);
+.next-button:hover, .prev-button:hover {
+    background: rgba(255, 255, 255, 0.5) !important;
+    color: black !important;
 }
 
-.chapter-content {
+.chapter-navigation {
     text-align: center;
-    padding: 100px 20px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1000;
 }
 
-.chapter-content img {
-    width: 80%;
-    max-width: 800px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
-}
-
-.next-button {
-    display: block;
-    margin: 20px auto;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.next-button:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
