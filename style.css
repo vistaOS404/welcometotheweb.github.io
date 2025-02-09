@@ -341,3 +341,20 @@ nav ul li a {
 nav ul li a:hover {
     color: cyan !important;   /* Adds a hover effect */
 }
+.comic-image {
+    max-width: 90%;   /* Limits image width to 90% of the screen */
+    height: auto;     /* Maintains aspect ratio */
+    display: block;   /* Prevents inline spacing issues */
+    margin: 20px auto; /* Centers the image with spacing */
+    border-radius: 8px; /* (Optional) Adds rounded corners */
+}
+@media screen and (max-width: 768px) {
+    .comic-image {
+        max-width: 100%; /* Makes the image fully fit on smaller screens */
+        margin: 10px auto;
+    }
+}
+.comic-image {
+    max-height: 700px; /* Adjust to preferred height */
+    object-fit: contain; /* Ensures full image is visible without stretching */
+}
