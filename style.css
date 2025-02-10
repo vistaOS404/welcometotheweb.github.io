@@ -399,3 +399,9 @@ nav ul li a:hover {
     background: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
 }
+.logo {
+    order: -1 !important;
+}
+.intro {
+    order: 1 !important;
+}
