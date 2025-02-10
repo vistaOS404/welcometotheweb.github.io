@@ -406,7 +406,7 @@ nav ul li a:hover {
     max-width: 600px;
     position: absolute;
     left: 50%;
-    top: 35%; /* Push it down slightly */
+    top: 30%; /* Push it down slightly */
     transform: translate(-50%, -50%);
     text-align: center;
 }
