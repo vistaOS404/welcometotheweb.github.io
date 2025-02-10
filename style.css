@@ -368,11 +368,7 @@ nav ul li a:hover {
     background: none !important;
     box-shadow: none !important;
 }
-.logo {
-    display: block;
-    text-align: center;
-    margin: 20px auto; /* Adds space around the logo */
-}
+
 
 .intro {
     text-align: center;
@@ -380,10 +376,14 @@ nav ul li a:hover {
     font-size: 20px;
     width: 85%;
     max-width: 900px;
-    margin: 20px auto 40px auto; /* Pushes intro lower */
+    margin: 40px auto;  /* Adds spacing below the logo */
     padding: 25px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
 }
-
+.logo {
+    display: block;
+    text-align: center;
+    margin: 30px auto; /* Adds space around the logo */
+}
 
