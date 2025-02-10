@@ -397,12 +397,18 @@ nav ul li a:hover {
     padding-top: 10px;
 }
 
-/* Logo Styling */
 .logo {
+    display: block;
     text-align: center;
     max-width: 600px;
-    margin-bottom: 5px; /* Minimal spacing below logo */
+    margin: 0 auto;
+    position: relative;
 }
+.logo img {
+    display: block;
+    margin: 0 auto; /* Forces it to the center */
+}
+
 
 /* Introduction Box */
 .intro {
