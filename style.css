@@ -380,28 +380,25 @@ nav ul li a:hover {
 }
 
 .logo {
-    order: -1; /* Forces the logo to appear FIRST */
     display: block;
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
+    position: relative; /* Ensure it's in normal document flow */
+    z-index: 10;
 }
 
 .intro {
-    order: 1; /* Forces the intro to appear AFTER the logo */
+    position: static !important; /* Remove any absolute positioning */
+    display: block !important; /* Ensure it's visible */
+    margin-top: 50px !important; /* Push it down */
     text-align: center;
     color: white;
     font-size: 20px;
     width: 85%;
     max-width: 900px;
-    margin: 0 auto;
     padding: 25px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
 }
-.logo {
-    order: -1 !important;
-}
-.intro {
-    order: 1 !important;
-}
+
