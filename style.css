@@ -368,24 +368,21 @@ nav ul li a:hover {
     background: none !important;
     box-shadow: none !important;
 }
+.logo {
+    display: block;
+    text-align: center;
+    margin: 20px auto; /* Adds space around the logo */
+}
+
 .intro {
     text-align: center;
     color: white;
     font-size: 20px;
-    width: 80%;
-    max-width: 800px;
-    margin: 20px auto;  /* Centers the text */
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.6); /* Adds a semi-transparent dark background */
-    border-radius: 10px; /* Optional: Adds rounded corners */
+    width: 85%;
+    max-width: 900px;
+    margin: 20px auto 40px auto; /* Pushes intro lower */
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
 }
 
-.intro h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.intro p {
-    font-size: 18px;
-    line-height: 1.6;
-}
