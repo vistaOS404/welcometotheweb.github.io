@@ -398,16 +398,18 @@ nav ul li a:hover {
 }
 
 .logo {
-    display: block;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     position: relative;
 }
 .logo img {
     display: block;
-    margin: 0 auto; /* Forces it to the center */
+    max-width: 600px;
+    height: auto;
 }
+
 
 
 /* Introduction Box */
