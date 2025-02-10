@@ -425,15 +425,16 @@ nav ul li a:hover {
 /* Introduction Box */
 .intro {
     position: absolute;
-    top: 60%; /* Moves it down to avoid overlap */
+    top: 65%; /* Adjust this value to move it closer to the logo */
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8); /* Keep the semi-transparent background */
     padding: 20px;
     border-radius: 10px;
     width: 60%;
     text-align: center;
 }
+
 
 
 
