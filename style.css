@@ -397,3 +397,7 @@ nav ul li a:hover {
     background: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
 }
+.intro {
+    position: relative;
+    top: 50px; /* Moves it down manually */
+}
