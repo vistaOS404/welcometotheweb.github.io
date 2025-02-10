@@ -435,6 +435,11 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.intro p {
+    color: #ffffff !important; /* Ensure the text is white */
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 
