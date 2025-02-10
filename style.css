@@ -399,23 +399,21 @@ nav ul li a:hover {
 
 
 .logo {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     position: relative;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .logo img {
     display: block;
     max-width: 600px;
-    width: 100%;
     height: auto;
     margin: 0 auto;
 }
-
-
-
 
 
 /* Introduction Box */
