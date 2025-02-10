@@ -398,17 +398,19 @@ nav ul li a:hover {
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    text-align: center;
     width: 100%;
     position: relative;
 }
+
 .logo img {
     display: block;
+    margin: 0 auto;
     max-width: 600px;
     height: auto;
 }
+
 
 
 
