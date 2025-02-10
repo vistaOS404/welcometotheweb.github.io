@@ -373,29 +373,29 @@ nav ul li a:hover {
 .content-container {
     display: flex;
     flex-direction: column; /* Stacks items vertically */
-    align-items: center; /* Centers them horizontally */
-    justify-content: center; /* Centers content */
-    gap: 20px; /* Adds spacing between elements */
-    padding-top: 50px; /* Pushes everything down slightly */
+    align-items: center; /* Centers them */
+    justify-content: center; /* Centers the content */
+    gap: 20px; /* Adds spacing between the logo and intro */
+    padding-top: 50px; /* Moves everything down slightly */
 }
 
 .logo {
+    order: -1; /* Forces the logo to appear FIRST */
     display: block;
     text-align: center;
-    margin: 20px auto; /* Adds spacing above and below */
-    max-width: 600px; /* Prevents logo from being too large */
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .intro {
+    order: 1; /* Forces the intro to appear AFTER the logo */
     text-align: center;
     color: white;
     font-size: 20px;
     width: 85%;
     max-width: 900px;
-    margin: 50px auto 0 auto; /* Ensures space below the logo */
+    margin: 0 auto;
     padding: 25px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
-    position: relative;
-    z-index: 10; /* Ensures it's not covered by other elements */
 }
