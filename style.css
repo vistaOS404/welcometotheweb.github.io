@@ -261,15 +261,7 @@ a, button, input[type="submit"], input[type="button"] {
     cursor: url('docs/assets/mouse_hover.png') 16 16, pointer;
 }
 
-.cursor-particle {
-    position: absolute;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
-    pointer-events: none;
-    opacity: 1;
-    transform: translate(-50%, -50%);
-    animation: fadeMove 1s ease-out;
-}
+
 
 .chapter-list {
     text-align: center;
