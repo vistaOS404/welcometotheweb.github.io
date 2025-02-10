@@ -390,12 +390,11 @@ nav ul li a:hover {
 
 /* Ensure logo and intro stack correctly */
 .content-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px; /* Minimal spacing */
-    padding-top: 10px;
+    display: block; /* Removes flex issues */
+    text-align: center;
+    width: 100%;
 }
+
 
 .logo {
     display: block;
