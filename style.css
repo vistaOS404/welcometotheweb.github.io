@@ -403,14 +403,16 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
+    max-width: 600px; /* Ensures it doesn't stretch too much */
     position: relative;
     margin: 0 auto;
     text-align: center;
 }
 
+
 .logo img {
     display: block;
-    max-width: 600px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
