@@ -380,24 +380,22 @@ nav ul li a:hover {
 }
 
 .logo {
-    order: 1; /* Forces the logo to be first */
+    display: block;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto; /* Adds spacing above and below */
+    max-width: 600px; /* Prevents logo from being too large */
 }
 
 .intro {
-    order: 2; /* Forces the intro to be second */
     text-align: center;
     color: white;
     font-size: 20px;
     width: 85%;
     max-width: 900px;
-    margin: 0 auto; /* Centers the intro */
+    margin: 50px auto 0 auto; /* Ensures space below the logo */
     padding: 25px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
-}
-.intro {
     position: relative;
-    top: 50px; /* Moves it down manually */
+    z-index: 10; /* Ensures it's not covered by other elements */
 }
