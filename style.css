@@ -370,20 +370,30 @@ nav ul li a:hover {
 }
 
 
+.content-container {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers them horizontally */
+    justify-content: center; /* Centers content */
+    gap: 20px; /* Adds spacing between elements */
+    padding-top: 50px; /* Pushes everything down slightly */
+}
+
+.logo {
+    order: 1; /* Forces the logo to be first */
+    text-align: center;
+    margin: 0 auto;
+}
+
 .intro {
+    order: 2; /* Forces the intro to be second */
     text-align: center;
     color: white;
     font-size: 20px;
     width: 85%;
     max-width: 900px;
-    margin: 40px auto;  /* Adds spacing below the logo */
+    margin: 0 auto; /* Centers the intro */
     padding: 25px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
 }
-.logo {
-    display: block;
-    text-align: center;
-    margin: 30px auto; /* Adds space around the logo */
-}
-
