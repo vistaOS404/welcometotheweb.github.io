@@ -403,13 +403,14 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 600px; /* Ensures it doesn't stretch too much */
+    max-width: 600px;
     position: absolute;
     left: 50%;
-    top: 25%; /* Adjust this if needed */
+    top: 40%; /* Push it down slightly */
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 
 
 
@@ -423,18 +424,16 @@ nav ul li a:hover {
 
 /* Introduction Box */
 .intro {
+    position: absolute;
+    top: 60%; /* Moves it down to avoid overlap */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
     text-align: center;
-    color: white;
-    font-size: 20px;
-    width: 85%;
-    max-width: 900px;
-    padding: 25px;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 12px;
-
-    margin-top: -40px !important; /* Force it up */
-    padding-top: 10px;
-    position: relative;
 }
+
 
 
