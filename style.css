@@ -384,14 +384,11 @@ nav ul li a:hover {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-    position: relative; /* Ensure it's in normal document flow */
+    position: relative; /* Ensures it's in normal document flow */
     z-index: 10;
 }
 
 .intro {
-    position: static !important; /* Remove any absolute positioning */
-    display: block !important; /* Ensure it's visible */
-    margin-top: 50px !important; /* Push it down */
     text-align: center;
     color: white;
     font-size: 20px;
@@ -400,5 +397,9 @@ nav ul li a:hover {
     padding: 25px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
+    
+    position: relative; /* Makes sure it's in the normal document flow */
+    margin-top: 100px;  /* Moves it directly below the logo */
+    z-index: 5;  /* Ensures it's not covering the logo */
 }
 
